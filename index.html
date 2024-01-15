@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Cricket Game</title>
+  </head>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+  <link rel="stylesheet" href="cricket.css" />
+
+  <body>
+
+    
+  
+
+<div class="card">
+
+  <h1>Bat-Ball-Stump Game</h1>
+
+  <div class="btnDiv">
+    <button  onClick=" console.log('You choose Bat');
+    let computerChoice = genrateComputerChoice();
+    let resultMsg = getResult('Bat', computerChoice);
+    showResult('Bat', computerChoice , resultMsg); "> Bat</button>
+   
+     <button onclick=" console.log('You choose Ball');
+     computerChoice = genrateComputerChoice();
+     resultMsg = getResult('Ball', computerChoice);
+     showResult('Ball', computerChoice , resultMsg); " >  Ball</button>
+   
+     <button onclick="
+     console.log('You choose Stump');
+     computerChoice = genrateComputerChoice();
+     resultMsg = getResult('Stump', computerChoice);
+     showResult('Stump', computerChoice , resultMsg); "> Stump</button>
+
+
+  </div>
+
+</div>
+
+<div class="scoreBoard">
+  <h2>Score Board</h2>
+  <div class="mainDiv">
+    <div class="userScore">
+      <h4 style="margin-top: 0px;" id="user">User</h4>
+      <h2 style="margin-top: -20px;" id="uScore">0</h2>
+    </div>
+  <div class="computerScore">
+    <h4 style="margin-top: 0px;">Computer</h4>
+    <h2 style="margin-top: -20px" id="cScore">0 </h2>
+  </div>
+  <div class="tieScore">
+    <h4 style="margin-top: 0px;" >Tie</h4>
+    <h2 style="margin-top: -20px;" id="tScore"> 0</h2>
+  </div>
+  </div>
+  
+</div>
+
+
+    
+
+    <script src="cricket.js" > </script>
+
+
+
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,98 @@
+body {
+    text-align: center;
+    background-image: url(images/Bat-Ball-Stump.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+    
+}
+
+.card{
+    height: 150px;
+    width: 100%;
+    margin-left: auto ;
+    opacity: 80%;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.card h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    font-size: 150px;
+    opacity: 100%;
+    margin: auto;
+    color: whitesmoke;
+  text-shadow: 10px 10px 2px #000000;
+  opacity: 100%;
+}
+
+.btnDiv{
+    margin-left: 0px;
+}
+
+
+.btnDiv button{
+
+        background-image: linear-gradient(to right, #AA076B 0%, #61045F  51%, #AA076B  100%);
+        margin: 10px;
+        padding: 15px 45px;
+        text-align: center;
+        transition: 0.2s;
+        background-size: 50% auto;
+        color: white; 
+        font-weight: bold;
+        font-size: 20px;           
+        box-shadow: 0 0 20px #eee;
+        border-radius: 10px;
+        
+      }
+
+.btnDiv button:hover {
+        background-position: right center; /* change the direction of the change here */
+        color: #fff;
+        text-decoration: none;
+      }
+     
+.scoreBoard{
+    height: 105px;
+    width: 280px;
+    background-color: #AA076B;
+    border-radius: 20px;
+    opacity: 90%;
+    margin-top: -240px;
+    margin-left: 78%;
+    text-align: center;
+}
+.mainDiv{
+    margin-top: -15px;
+    height: 40px;
+    width: 250px;
+    display: flex;
+    padding: 5px;
+    padding-left: 25px;
+    justify-content: space-between;
+}
+
+
+
+
+.userScore{
+    width: 100px;
+    height: 50px;
+    margin-right: 20px;
+    background-color: wheat;
+}
+.computerScore{
+    width: 100px;
+    height: 50px;
+    margin-right: 20px;
+    background-color: wheat;
+}
+.tieScore{
+    width: 100px;
+    height: 50px;
+    margin-right: 20px;
+    background-color: wheat;
+}
